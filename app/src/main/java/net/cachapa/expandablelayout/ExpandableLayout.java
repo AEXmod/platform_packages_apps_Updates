@@ -13,14 +13,14 @@ import android.view.animation.Interpolator;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
+import com.aospextended.ota.R;
+
 import net.cachapa.expandablelayout.util.FastOutSlowInInterpolator;
 
 import static net.cachapa.expandablelayout.ExpandableLayout.State.COLLAPSED;
 import static net.cachapa.expandablelayout.ExpandableLayout.State.COLLAPSING;
 import static net.cachapa.expandablelayout.ExpandableLayout.State.EXPANDED;
 import static net.cachapa.expandablelayout.ExpandableLayout.State.EXPANDING;
-
-import org.pixelexperience.ota.R;
 
 public class ExpandableLayout extends FrameLayout {
     public interface State {

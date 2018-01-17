@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "org.pixelexperience.ota"
+        applicationId "com.aospextended.ota"
         minSdkVersion 27
         targetSdkVersion 27
         versionCode 1
