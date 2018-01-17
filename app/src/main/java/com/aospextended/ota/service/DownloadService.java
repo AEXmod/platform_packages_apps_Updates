@@ -80,7 +80,7 @@ public class DownloadService extends IntentService
             request.addRequestHeader("User-Agent", userAgent);
         }
         request.setTitle(getString(R.string.app_name));
-        request.setAllowedOverRoaming(false);
+        request.setAllowedOverRoaming(true);
         request.setVisibleInDownloadsUi(false);
 
         request.setAllowedOverMetered(true);
