@@ -4,16 +4,17 @@
   <!-- App name -->
   <string name="app_name">Обновление системы</string>
   <!-- Update checking -->
-  <string name="last_updated_at">(Последнее обновление на <xliff:g id="time">%s </xliff:g>)</string>
+  <string name="ota_not_supported">Эта сборка не поддерживает OTA обновления.</string>
+  <string name="last_updated_at">(Последнее обновление <xliff:g id="time">%s </xliff:g>)</string>
   <string name="type_installed">Установлено</string>
-  <string name="type_downloaded">Готово к установке</string>
+  <string name="type_downloaded">Загруженные</string>
   <string name="type_downloading">Загрузка…</string>
-  <string name="type_completing">Завершение установки…</string>
+  <string name="type_completing">Завершение...</string>
   <string name="download_button">Загрузить</string>
-  <string name="install_button">Установка</string>
-  <string name="updates_category_title">Доступные обновления</string>
-  <string name="checking_for_updates">Проверка обновлений</string>
-  <string name="update_found_notification">Обновление доступно</string>
+  <string name="install_button">Установить</string>
+  <string name="updates_category_title">Доступны обновления</string>
+  <string name="checking_for_updates">Проверка наличия обновлений</string>
+  <string name="update_found_notification">Доступно новое обновление!</string>
   <string name="update_found_notification_desc">Нажмите, чтобы загрузить</string>
   <string name="no_updates_available">Нет доступных обновлений</string>
   <string name="no_updates_available_pref_title">Нет доступных обновлений. Используйте кнопку \"Обновить\" для проверки наличия новых обновлений.</string>
@@ -22,22 +23,22 @@
   <string name="changelog_button">Просмотр изменений</string>
   <!-- Settings section -->
   <string name="settings_category_title">Настройки</string>
-  <string name="download_folder_title">Папка загрузок</string>
+  <string name="download_folder_title">Папка для загрузок:</string>
   <string name="update_check_title">Автоматическая проверка обновлений</string>
   <string name="check_manual">Отключено</string>
   <string name="check_daily">Ежедневно</string>
-  <string name="check_weekly">Еженедельно</string>
+  <string name="check_weekly">Раз в неделю</string>
   <string name="unknown">Неизвестно</string>
   <string name="mobile_data_warning_title">Предупрежд. о моб. данных</string>
   <string name="mobile_data_warning_summary">Показывать предупреждение, когда пользователь пытается загрузить обновление через мобильные данные</string>
   <!-- Info section -->
-  <string name="extras_category_title">Дополнения</string>
+  <string name="extras_category_title">Дополнительно</string>
   <string name="error_open_url">Не удалось открыть ссылку</string>
   <string name="developer_info_title">Сопровождающий</string>
   <string name="donate_info_title">Пожертвовать</string>
   <string name="donate_info_summary">Поддержать разработку</string>
   <string name="website_info_title">Сайт</string>
-  <string name="website_info_summary">Посетите наш веб-сайт</string>
+  <string name="website_info_summary">Посетите наш сайт!</string>
   <string name="news_info_title">Новости</string>
   <string name="news_info_summary">Будьте в курсе обновлений и других новостей</string>
   <string name="forum_info_title">Форум</string>
@@ -52,12 +53,12 @@
   <!-- Downloads -->
   <string name="confirm_download_cancel_dialog_title">Отменить загрузку</string>
   <string name="confirm_download_cancel_dialog_message">Отменить текущую загрузку ?</string>
-  <string name="download_cancelled">Загрузка отменена</string>
+  <string name="download_cancelled">Скачивание отменено</string>
   <string name="download_already_running">Загрузка уже выполняется</string>
   <string name="unable_to_stop_download">Не удалось отменить скачивание</string>
-  <string name="unable_to_download_file">Не удалось скачать файл обновления</string>
-  <string name="download_not_found">Обновление не найдено</string>
-  <string name="notif_download_success_title">Обновление системы скачано</string>
+  <string name="unable_to_download_file">Не удалось загрузить файл обновления</string>
+  <string name="download_not_found">Загрузка не найдена</string>
+  <string name="notif_download_success_title">Обновление загружено</string>
   <string name="notif_download_success_summary">Нажмите для установки</string>
   <string name="notif_download_failure_title">Ошибка загрузки обновления</string>
   <string name="error_download_in_progress">Идёт загрузка</string>
@@ -67,8 +68,8 @@
   <string name="confirm_delete_dialog_title">Удалить файл</string>
   <string name="confirm_delete_dialog_message">Удалить выбранный файл обновления?</string>
   <string name="confirm_delete_all_dialog_message">Удалить все загруженные файлы обновлений?</string>
-  <string name="delete_update_success_message">Файл обновления «<xliff:g id="filename">%s</xliff:g>» удалён</string>
-  <string name="delete_updates_failure_message">Произошла ошибка при удалении файла обновления</string>
+  <string name="delete_update_success_message">Обновление «<xliff:g id="filename">%s</xliff:g>» удалено</string>
+  <string name="delete_updates_failure_message">Произошла ошибка при удалении файла обновлений</string>
   <string name="delete_updates_noFolder_message">Каталог с обновлениями не найден</string>
   <string name="delete_updates_success_message">Все загруженные обновления удалены</string>
   <!-- Menu and dialog strings -->
@@ -88,8 +89,8 @@
   <string name="save_advanced_options">Сохранить</string>
   <string name="wipe_cache">Очистить кэш</string>
   <string name="wipe_dalvik_cache">Очистить Dalvik/ART-кэш</string>
-  <string name="wipe_data">Стереть данные</string>
-  <string name="wipe_data_dialog_confirmation_title">Сброс к первоначальной установке</string>
+  <string name="wipe_data">Очистить раздел Data</string>
+  <string name="wipe_data_dialog_confirmation_title">Возврат к заводским настройкам</string>
   <string name="wipe_data_dialog_confirmation_message">Вы выбрали опцию «Сброс к первоначальной установке», это удалит все ваши данные на вашем устройстве, вы хотите продолжить?</string>
   <!-- Changelog -->
   <string name="changelog_title">Список изменений</string>
