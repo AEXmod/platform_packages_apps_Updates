@@ -4,15 +4,26 @@
   <!-- App name -->
   <string name="app_name">Süsteemi uuendused</string>
   <!-- Update checking -->
+  <string name="last_updated_at">(viimati uuendatud <xliff:g id="time">%s</xliff:g>)</string>
+  <string name="type_downloading">Allalaadimine…</string>
+  <string name="type_completing">Lõpuleviimine…</string>
+  <string name="download_button">Lae alla</string>
+  <string name="install_button">Paigalda</string>
   <string name="updates_category_title">Saadaval olevad uuendused</string>
+  <string name="checking_for_updates">Uuenduste otsimine</string>
   <string name="update_found_notification">Uus uuendus saadaval</string>
   <string name="no_updates_available">Uuendusi ei leitud</string>
   <string name="changelog_button">Kuva muudatused</string>
   <!-- Settings section -->
   <string name="settings_category_title">Seaded</string>
   <string name="download_folder_title">Allalaadimiste kaust</string>
+  <string name="check_manual">Käsitsi</string>
+  <string name="check_daily">Iga päev</string>
+  <string name="check_weekly">Iga nädal</string>
+  <string name="unknown">Teadmata</string>
   <string name="mobile_data_warning_title">Mobiilse andmeside hoiatus</string>
   <!-- Info section -->
+  <string name="extras_category_title">Lisad</string>
   <string name="donate_info_title">Anneta</string>
   <string name="donate_info_summary">Toeta arengut</string>
   <string name="website_info_title">Koduleht</string>
@@ -22,6 +33,7 @@
   <string name="forum_info_title">Foorum</string>
   <string name="forum_info_summary">Vaata foorumi postitusi</string>
   <string name="addons_title">Lisandmoodulid</string>
+  <string name="addons_summary">Kasulikud failid</string>
   <!-- MD5 -->
   <string name="checking_md5">Faili terviklikkuse kontrollimine…</string>
   <string name="md5_failed_dialog_title">Faili terviklikkus</string>
@@ -33,7 +45,13 @@
   <string name="download_already_running">Allalaadimine juba käib</string>
   <string name="unable_to_stop_download">Allalaadimist ei saa peatada</string>
   <string name="unable_to_download_file">Ei saa alla laadida uuenduse faili</string>
+  <string name="download_not_found">Allalaadimist ei leitud</string>
   <!-- Deleting -->
+  <string name="confirm_delete_dialog_title">Kustuta fail</string>
+  <string name="confirm_delete_dialog_message">Kustuta valitud uuenduse fail?</string>
+  <string name="delete_update_success_message">Uuendus <xliff:g id="filename">%s</xliff:g> on kustutatud</string>
+  <string name="delete_updates_noFolder_message">Uuenduste kausta ei leitud</string>
+  <string name="delete_updates_success_message">Kõik allalaetud uuendused on kustutatud</string>
   <!-- Menu and dialog strings -->
   <string name="menu_refresh">Värskenda</string>
   <!-- Mobile data warning -->
@@ -42,6 +60,7 @@
   <string name="checkbox_mobile_data_warning">Ära enam näita</string>
   <!-- Install -->
   <string name="reboot_title">Paigalda uuendus</string>
+  <string name="reboot_failed_title">Tõrge</string>
   <string name="delete_after_install_title">Kustuta zip fail peale paigaldamist</string>
   <string name="advanced_options">Lisavalikud</string>
   <string name="save_advanced_options">Salvesta</string>

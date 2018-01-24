@@ -4,8 +4,6 @@
   <!-- App name -->
   <string name="app_name">સિસ્ટમ અપડેટ્સ</string>
   <!-- Update checking -->
-  <string name="ota_not_supported">આ બિલ્ડ OTA અપડેટ્સને સપોર્ટ કરતું નથી.</string>
-  <string name="type_installed">ઇન્સ્ટોલ કરેલ</string>
   <string name="type_downloaded">ડાઉનલોડ કરેલ</string>
   <string name="type_downloading">ડાઉનલોડ થઇ રહ્યું છે…</string>
   <string name="type_completing">પૂર્ણ થઈ રહ્યું છે…</string>
