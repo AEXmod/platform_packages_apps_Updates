@@ -4,6 +4,7 @@
   <!-- App name -->
   <string name="app_name">Sistem güncellemeleri</string>
   <!-- Update checking -->
+  <string name="ota_not_supported">Bu yapı OTA güncellemelerini desteklemez.</string>
   <string name="last_updated_at">(son güncelleme <xliff:g id="time">%s</xliff:g>)</string>
   <string name="type_downloaded">İndirildi</string>
   <string name="type_downloading">İndiriliyor…</string>
@@ -23,22 +24,22 @@
   <string name="settings_category_title">Ayarlar</string>
   <string name="download_folder_title">Klasörü indir</string>
   <string name="update_check_title">Güncelleştirmeleri düzenli olarak kontrol et</string>
-  <string name="check_manual">Devre Dışı</string>
+  <string name="check_manual">Devre dışı</string>
   <string name="check_daily">Günlük</string>
   <string name="check_weekly">Haftalık</string>
   <string name="unknown">Bilinmiyor</string>
   <string name="mobile_data_warning_title">Mobil veri uyarısı</string>
   <string name="mobile_data_warning_summary">Kullanıcı mobil veri yoluyla güncelleme indirmeye çalıştığında bir uyarı göster</string>
   <!-- Info section -->
-  <string name="extras_category_title">Ekstralar</string>
+  <string name="extras_category_title">Ek özellikler</string>
   <string name="error_open_url">URL\'yi tarayıcıda açma başarısız oldu</string>
   <string name="developer_info_title">Sorumlu</string>
-  <string name="donate_info_title">Bağış</string>
-  <string name="donate_info_summary">Geliştirmeyi destekle</string>
-  <string name="website_info_title">İnternet Sitesi</string>
+  <string name="donate_info_title">Bağış yap</string>
+  <string name="donate_info_summary">Geliştiriciyi destekle</string>
+  <string name="website_info_title">İnternet sitesi</string>
   <string name="website_info_summary">İnternet sitemizi ziyaret edin</string>
   <string name="news_info_title">Haberler</string>
-  <string name="news_info_summary">Güncellemeler ve diğer haberler hakkında haberdar oun</string>
+  <string name="news_info_summary">Güncellemeler ve diğer haberler hakkında haberdar olun</string>
   <string name="forum_info_title">Forum</string>
   <string name="forum_info_summary">Forum mesajlarını görüntüle</string>
   <string name="addons_title">Eklentiler</string>
@@ -78,8 +79,8 @@
   <string name="update_on_mobile_data_message">Mobil veri kullanarak bir güncelleştirme indirmek üzeresiniz, muhtemelen yüksek veri kullanımlarına neden olur. Devam etmek ister misiniz?</string>
   <string name="checkbox_mobile_data_warning">Tekrar gösterme</string>
   <!-- Install -->
-  <string name="reboot_title">Güncelleştirmeyi yükle</string>
-  <string name="reboot_message">Cihazınız güncelleştirmeyi yüklemek için kurtarma modunda yeniden başlatılacak.\n\nŞu dosya indirilecektir:\n<xliff:g id="filepath">%s</xliff:g>\n\nDevam etmek ister misiniz?</string>
+  <string name="reboot_title">Güncellemeyi yükle</string>
+  <string name="reboot_message">Güncellemeyi yüklemek için cihazınız kurtarma modunda yeniden başlatılacaktır.\n\nAşağıdaki dosya yüklenecek:\n<xliff:g id="filepath">%s</xliff:g>\n\nDevam etmek ister misiniz?</string>
   <string name="reboot_failed_title">Hata</string>
   <string name="reboot_failed_message">Yeniden başlatılamadı, lütfen kurtarma için elle yeniden başlatın ve aşağıdaki dosyayı yükleyin:\n\n<xliff:g id="filepath">%s</xliff:g></string>
   <string name="delete_after_install_title">Yükledikten sonra zip dosyasını sil</string>
@@ -91,5 +92,5 @@
   <string name="wipe_data_dialog_confirmation_title">Fabrika ayarlarına sıfırla</string>
   <string name="wipe_data_dialog_confirmation_message">\'Verileri sil\' seçeneğini seçtiniz, bu işlem cihazınızı fabrika ayarlarına sıfırlar, devam etmek istiyor musunuz?</string>
   <!-- Changelog -->
-  <string name="changelog_title">Değişim Günlüğü</string>
+  <string name="changelog_title">Değişiklikler</string>
 </resources>
