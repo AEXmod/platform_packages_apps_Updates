@@ -12,7 +12,7 @@ package com.aospextended.ota.misc;
 
 public class Constants {
     // Download related
-    public static final String UPDATES_FOLDER = "AospExtended-Updates";
+    public static final String UPDATES_FOLDER = "AEX-Mod-Updates";
     public static final String DOWNLOAD_ID = "download_id";
     public static final String DOWNLOAD_NAME = "download_name";
     public static final String DOWNLOAD_TMP_EXT = ".tmp";
@@ -34,7 +34,7 @@ public class Constants {
     public static final String CURRENT_DEVICE_NAME = "ro.aex.device";
     public static final String CURRENT_VERSION = "ro.modversion";
     public static final String CURRENT_BUILD_TYPE = "ro.extended.releasetype";
-    public static final String OTA_URL = "https://downloads.aospextended.com/ota/%s";
+    public static final String OTA_URL = "http://g36119.hostru1.fornex.org/OTAs/%s";
     // Expressions
     public static final String FILENAME_DATE_FORMAT = "yyyyMMdd-Hm";
     public static final String PATTERN_FILENAME_DATE_FORMAT = "(\\d{4}\\d{2}\\d{2}-\\d{2}\\d{2})";
