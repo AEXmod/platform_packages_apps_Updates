@@ -8,7 +8,7 @@
   <string name="last_updated_at">(最后一次更新于 <xliff:g id="time">%s</xliff:g>)</string>
   <string name="type_downloaded">已下载 </string>
   <string name="type_downloading">正在下载…</string>
-  <string name="type_completing">正在完成</string>
+  <string name="type_completing">正在完成...</string>
   <string name="download_button">下载</string>
   <string name="install_button">安装</string>
   <string name="updates_category_title">可用的更新</string>
@@ -38,12 +38,12 @@
   <string name="donate_info_summary">支持开发</string>
   <string name="website_info_title">网站</string>
   <string name="website_info_summary">访问我们的网站</string>
-  <string name="news_info_title">最新消息</string>
+  <string name="news_info_title">新闻</string>
   <string name="news_info_summary">随时了解更新信息</string>
   <string name="forum_info_title">论坛</string>
   <string name="forum_info_summary">查看论坛帖子</string>
   <string name="addons_title">插件</string>
-  <string name="addons_summary">有用的文件</string>
+  <string name="addons_summary">可用文件</string>
   <string name="addons_error">加载插件列表失败</string>
   <!-- MD5 -->
   <string name="checking_md5">正在校验文件...</string>
@@ -55,7 +55,7 @@
   <string name="download_cancelled">下载已取消</string>
   <string name="download_already_running">已有一个正在运行的下载</string>
   <string name="unable_to_stop_download">无法停止下载</string>
-  <string name="unable_to_download_file">无法下载更新文件</string>
+  <string name="unable_to_download_file">无法下载更新</string>
   <string name="download_not_found">未找到下载</string>
   <string name="notif_download_success_title">已成功下载更新</string>
   <string name="notif_download_success_summary">点击安装</string>

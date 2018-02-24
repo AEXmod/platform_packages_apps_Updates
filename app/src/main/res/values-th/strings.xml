@@ -3,7 +3,12 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- App name -->
   <!-- Update checking -->
+  <string name="type_downloading">กำลังโหลด…</string>
+  <string name="update_found_notification_desc">แตะเพื่อดาวน์โหลด</string>
+  <string name="no_updates_available">ไม่มีอัพเดทที่พร้อมใช้</string>
   <!-- Settings section -->
+  <string name="settings_category_title">การตั้งค่า</string>
+  <string name="download_folder_title">โฟลเดอร์ดาวน์โหลด</string>
   <!-- Info section -->
   <!-- MD5 -->
   <!-- Downloads -->

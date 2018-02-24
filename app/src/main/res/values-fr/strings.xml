@@ -4,6 +4,7 @@
   <!-- App name -->
   <string name="app_name">Mises à jour du système</string>
   <!-- Update checking -->
+  <string name="ota_not_supported">Cette version ne supporte pas les mises à jour OTA.</string>
   <string name="last_updated_at">(dernier mise à jour à <xliff:g id="time">%s</xliff:g>)</string>
   <string name="type_downloaded">Téléchargé</string>
   <string name="type_downloading">Téléchargement en cours…</string>
@@ -47,10 +48,49 @@
   <!-- MD5 -->
   <string name="checking_md5">Vérification de l\'intégrité du fichier…</string>
   <string name="md5_failed_dialog_title">Intégrité du fichier</string>
+  <string name="md5_failed_dialog_message">La vérification a échoué, souhaitez-vous continuer?</string>
   <!-- Downloads -->
+  <string name="confirm_download_cancel_dialog_title">Annuler le téléchargement</string>
+  <string name="confirm_download_cancel_dialog_message">Annuler le téléchargement en cours ?</string>
+  <string name="download_cancelled">Téléchargement annulé</string>
+  <string name="download_already_running">Un téléchargement est déjà en cours</string>
+  <string name="unable_to_stop_download">Impossible d\'interrompre le téléchargement</string>
+  <string name="unable_to_download_file">Impossible de télécharger le fichier de mise à jour</string>
+  <string name="download_not_found">Téléchargement introuvable</string>
+  <string name="notif_download_success_title">Mise à jour téléchargée avec succès</string>
+  <string name="notif_download_success_summary">Appuyez pour installer</string>
+  <string name="notif_download_failure_title">Le téléchargement de la mise à jour a échoué</string>
+  <string name="error_download_in_progress">Il y a un téléchargement en cours</string>
+  <string name="error_file_ready_to_install">Il y a une mise à jour prête à être installée</string>
+  <string name="storage_permission_error">Veuillez permettre le stockage des données pour continuer</string>
   <!-- Deleting -->
+  <string name="confirm_delete_dialog_title">Supprimer le fichier</string>
+  <string name="confirm_delete_dialog_message">Supprimer le fichier de mise à jour sélectionné?</string>
+  <string name="confirm_delete_all_dialog_message">Supprimer tous les fichiers de mise à jour téléchargés?</string>
+  <string name="delete_update_success_message">Mise à jour <xliff:g id="filename">%s</xliff:g> supprimée</string>
+  <string name="delete_updates_failure_message">Il y a eu une erreur pendant la suppression du fichier de mise à jour</string>
+  <string name="delete_updates_noFolder_message">Dossier de mise à jour introuvable</string>
+  <string name="delete_updates_success_message">Toutes les mises à jour téléchargées ont été supprimées</string>
   <!-- Menu and dialog strings -->
+  <string name="menu_refresh">Actualiser</string>
+  <string name="menu_delete_all">Supprimer les mises à jour</string>
   <!-- Mobile data warning -->
+  <string name="update_on_mobile_data_title">Avertissement</string>
+  <string name="update_on_mobile_data_message">Vous êtes sur le point de télécharger un paquet de mise à jour via vos données mobiles, ce qui risque d\'utiliser beaucoup de débit et de données. Souhaitez-vous continuer?</string>
+  <string name="checkbox_mobile_data_warning">Ne plus montrer</string>
   <!-- Install -->
+  <string name="reboot_title">Installer la mise à jour</string>
+  <string name="reboot_message">Votre appareil redémarrera en mode recovery pour installer la mise à jour. \n\nLe fichier suivant sera installé:\n<xliff:g id="filepath">%s</xliff:g>\n\nSouhaitez-vous continuer?</string>
+  <string name="reboot_failed_title">Erreur</string>
+  <string name="reboot_failed_message">Échec du redémarrage, veuillez redémarrer manuellement en mode recovery et installer le fichier suivant:\n\n<xliff:g id="filepath">%s</xliff:g></string>
+  <string name="delete_after_install_title">Supprimer le fichier zip après installation</string>
+  <string name="advanced_options">Avancé</string>
+  <string name="save_advanced_options">Sauver</string>
+  <string name="wipe_cache">Effacer le cache</string>
+  <string name="wipe_dalvik_cache">Effacer le cache Dalvik/ART</string>
+  <string name="wipe_data">Effacer données</string>
+  <string name="wipe_data_dialog_confirmation_title">Reset en paramètres usine</string>
+  <string name="wipe_data_dialog_confirmation_message">Vous avez sélectionné l\'option \"supprimer les données\", cela effectuera une restauration d\'usine sur votre appareil. Souhaitez-vous continuer?</string>
   <!-- Changelog -->
+  <string name="changelog_title">Historique des MAJ</string>
 </resources>

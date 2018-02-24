@@ -83,5 +83,14 @@
   <string name="reboot_message">Ang iyong device at mag umpisa sa kanyang sariling pag galing na mode para ma-install ang update.\n\nAng mga sumusunod na payl ay ma-install:\n<xliff:g id="filepath">%s</xliff:g>\n\nNais mo ba na mag tuloy?</string>
   <string name="reboot_failed_title">Ang error</string>
   <string name="reboot_failed_message">Bigo na ma umpisahan muli, pakiusap na umpisahan ng mano mano para ma ibalik at ma-install ang mga sumusunod na payl:\n\n<xliff:g id="filepath">%s</xliff:g></string>
+  <string name="delete_after_install_title">Tanggalin ang zip file matapos i-install</string>
+  <string name="advanced_options">Pagsulong</string>
+  <string name="save_advanced_options">I-save</string>
+  <string name="wipe_cache">Linisan ang cache</string>
+  <string name="wipe_dalvik_cache">Linisan ang cache ng Dalvik / ART</string>
+  <string name="wipe_data">Burahin ang detalye</string>
+  <string name="wipe_data_dialog_confirmation_title">Factory reset</string>
+  <string name="wipe_data_dialog_confirmation_message">Pinili mo ang \'wipe data\' na opsyon, gagawin nito ang isang factory reset sa iyong device, gusto mo bang magpatuloy?</string>
   <!-- Changelog -->
+  <string name="changelog_title">Binagong Tala</string>
 </resources>
