@@ -55,9 +55,42 @@
   <string name="download_cancelled">Kanselado ang pag-download</string>
   <string name="download_already_running">Kasalukuyang tumatakbo na ang download</string>
   <string name="unable_to_stop_download">Hindi mapahinto ang download</string>
+  <string name="unable_to_download_file">Hindi makaya i-download ang na-update na payl</string>
+  <string name="download_not_found">Ang na download ay hindi matagpuan</string>
+  <string name="notif_download_success_title">Ang na-download ay matagumpay na nai-update</string>
+  <string name="notif_download_success_summary">I-tap upang ma-install</string>
+  <string name="notif_download_failure_title">Hindi matagumpay na nai-download ang update</string>
+  <string name="error_download_in_progress">May progreso na sa nai-download</string>
+  <string name="error_file_ready_to_install">Mayroon ng update na naka handa sa pag-install</string>
+  <string name="storage_permission_error">Pakiusap na pahintulutan ang permiso para magpatuloy</string>
   <!-- Deleting -->
+  <string name="confirm_delete_dialog_title">Burahin ang payl</string>
+  <string name="confirm_delete_dialog_message">Burahin ang napili na update sa payl?</string>
+  <string name="confirm_delete_all_dialog_message">Burahin ang na-download sa update na mga payl?</string>
+  <string name="delete_update_success_message">I-update<xliff:g id="filename">%s</xliff:g> burado na</string>
+  <string name="delete_updates_failure_message">Mayroong mali na nagaganap sa pagbura ng update na payl</string>
+  <string name="delete_updates_noFolder_message">I-update ang polder na hindi nakita</string>
+  <string name="delete_updates_success_message">Ang na-download na mga update ay burado na</string>
   <!-- Menu and dialog strings -->
+  <string name="menu_refresh">I-refresh</string>
+  <string name="menu_delete_all">Burahin ang mga update</string>
   <!-- Mobile data warning -->
+  <string name="update_on_mobile_data_title">Babala</string>
+  <string name="update_on_mobile_data_message">Ikaw ay mag-download ng na-update na mga pakete gamit ang mobile data kung saan gatulad ng pagpunta sa dahilan ng mataas na gamit ng data. Nais mo bang magpatuloy?</string>
+  <string name="checkbox_mobile_data_warning">Wag ulit ipakita</string>
   <!-- Install -->
+  <string name="reboot_title">I-install ang na-update</string>
+  <string name="reboot_message">Ang iyong device ay muling mag uumpisa sa kanyang sarili upang mabawi ang mode na na-install sa update.\n\nAng sumusunod na payl ay maaaring ma-install:\n<xliff:g id="filepath">%s</xliff:g>\n\nNais mo bang magpatuloy?</string>
+  <string name="reboot_failed_title">May mali</string>
+  <string name="reboot_failed_message">Bigo na magumpisa, pakiusap na umpisahan ng mano mano uopang mabawi ang na-install na payl sa sumusunod:\n\n<xliff:g id="filepath">%s</xliff:g></string>
+  <string name="delete_after_install_title">Burahin ang zip sa payl pagkatapos ma-install</string>
+  <string name="advanced_options">Ang Isulong</string>
+  <string name="save_advanced_options">I-save</string>
+  <string name="wipe_cache">Punasan ang cache</string>
+  <string name="wipe_dalvik_cache">Punasan ang Dalvik/SINING cache</string>
+  <string name="wipe_data">I-wipe ang data</string>
+  <string name="wipe_data_dialog_confirmation_title">I-reset ang pabrika</string>
+  <string name="wipe_data_dialog_confirmation_message">Kailangan mong mamili \'lipunin ang data\' mga pagpipilian, ito ay gagawin na factory reset sa iyong aparato, nais mo bang ipagpatuloy?</string>
   <!-- Changelog -->
+  <string name="changelog_title">Ang pagbabago sa log</string>
 </resources>

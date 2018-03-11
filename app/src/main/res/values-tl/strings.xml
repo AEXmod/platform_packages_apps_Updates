@@ -77,7 +77,7 @@
   <!-- Mobile data warning -->
   <string name="update_on_mobile_data_title">Ang babala</string>
   <string name="update_on_mobile_data_message">Ikaw ay mag-download ng update sa package gamit ang mobile data kung saan gustong mapunta sa mataas na pag gamit ng data. Nais mo ba na mag patuloy?</string>
-  <string name="checkbox_mobile_data_warning">Wag ito ipakita ulit</string>
+  <string name="checkbox_mobile_data_warning">Wag ipakitang uli</string>
   <!-- Install -->
   <string name="reboot_title">I-update ang pag-install</string>
   <string name="reboot_message">Ang iyong device at mag umpisa sa kanyang sariling pag galing na mode para ma-install ang update.\n\nAng mga sumusunod na payl ay ma-install:\n<xliff:g id="filepath">%s</xliff:g>\n\nNais mo ba na mag tuloy?</string>
