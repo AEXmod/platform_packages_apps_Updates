@@ -87,10 +87,11 @@
   <string name="advanced_options">مُتقدم</string>
   <string name="save_advanced_options">حفظ</string>
   <string name="wipe_cache">مسح الذّاكرة المؤقتة</string>
-  <string name="wipe_dalvik_cache">مسح الذاكرة المؤقتة Dalvik</string>
+  <string name="wipe_dalvik_cache">مسح ذاكرة التخزين المؤقت Dalvik/ART</string>
   <string name="wipe_data">مسح البيانات</string>
   <string name="wipe_data_dialog_confirmation_title">إعادة ضبط المصنع</string>
   <string name="wipe_data_dialog_confirmation_message">لقد حددت الخيار \"مسح البيانات\"، وهذا سيؤدي إلى إعادة ضبط إعدادات المصنع على جهازك، هل تريد المتابعة؟</string>
+  <string name="update_manual_ab">للمتابعة. ثبت نسخة البناء يدوياً بأستخدام TWRP. هذا الجهاز لا يدعم التثبيت التلقائي للبناء بسبب اقسام A/B.</string>
   <!-- Changelog -->
   <string name="changelog_title">سِجل التغييرات</string>
 </resources>

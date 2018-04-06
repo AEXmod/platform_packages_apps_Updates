@@ -68,8 +68,29 @@
   <string name="confirm_delete_dialog_message">Διαγραφή του επιλεγμένου αρχείου ενημέρωσης;</string>
   <string name="confirm_delete_all_dialog_message">Διαγραφή όλων των ληφθέντων αρχείων ενημερώσεων;</string>
   <string name="delete_update_success_message">Η ενημέρωση <xliff:g id="filename">%s</xliff:g> διαγράφηκε</string>
+  <string name="delete_updates_failure_message">Υπήρξε ένα σφάλμα κατά τη διαγραφή του αρχείου ενημέρωσης</string>
+  <string name="delete_updates_noFolder_message">Ο φάκελος ενημερώσεων δεν βρέθηκε</string>
+  <string name="delete_updates_success_message">Όλες οι κατεβασμένες ενημερώσεις διαγράφηκαν</string>
   <!-- Menu and dialog strings -->
+  <string name="menu_refresh">Ανανέωση</string>
+  <string name="menu_delete_all">Διαγραφή ενημέρωσης</string>
   <!-- Mobile data warning -->
+  <string name="update_on_mobile_data_title">Προειδοποίηση</string>
+  <string name="update_on_mobile_data_message">Είστε έτοιμος να κατεβάσετε ένα πακέτο ενημέρωσης χρησιμοποιώντας δεδομένα κινητής τηλεφωνίας, το οποίο είναι πιθανό να προκαλέσει υψηλή χρήση δεδομένων. Θα θέλατε να συνεχίσετε;</string>
+  <string name="checkbox_mobile_data_warning">Να μην εμφανιστεί ξανά</string>
   <!-- Install -->
+  <string name="reboot_title">Εγκατάσταση ενημέρωσης</string>
+  <string name="reboot_message">Η συσκευή θα επανεκκίνησή σε κατάσταση recovery για να εγκαταστήσει την ενημέρωση.\n\nΘα εγκατασταθεί το αρχείο:\n<xliff:g id="filepath">%s</xliff:g>\n\nΘέλετε να προχωρήσετε;</string>
+  <string name="reboot_failed_title">Σφάλμα</string>
+  <string name="reboot_failed_message">Αποτυχία επανεκκίνησης, παρακαλώ επανεκκινήστε χειροκίνητα σε κατάσταση recovey για να εγκατασταθεί το ακόλουθο αρχείο:\n\n<xliff:g id="filepath">%s</xliff:g></string>
+  <string name="delete_after_install_title">Διαγραφή αρχείων zip μετά την εγκατάσταση</string>
+  <string name="advanced_options">Για προχωρημένους</string>
+  <string name="save_advanced_options">Αποθήκευση και έξοδος</string>
+  <string name="wipe_cache">Εκκαθάριση προσωρινής μνήμης</string>
+  <string name="wipe_dalvik_cache">Εκκαθάριση Dalvik/ART Cache</string>
+  <string name="wipe_data">Διαγραφή δεδομένων</string>
+  <string name="wipe_data_dialog_confirmation_title">Επαναφορά εργοστασιακών ρυθμίσεων</string>
+  <string name="wipe_data_dialog_confirmation_message">Έχετε επιλέξει «εκκαθάριση δεδομένων», αυτό θα κάνει επαναφορά εργοστασιακών ρυθμίσεων στη συσκευή σας, θέλετε να συνεχίσετε;</string>
   <!-- Changelog -->
+  <string name="changelog_title">Αρχείο αλλαγών</string>
 </resources>

@@ -91,6 +91,7 @@
   <string name="wipe_data">Cancella i dati</string>
   <string name="wipe_data_dialog_confirmation_title">Ripristino delle impostazioni di fabbrica</string>
   <string name="wipe_data_dialog_confirmation_message">Hai selezionato l\'opzione \'cancella dati\', questo riporterà il dispositivo ai valori di fabbrica, si desidera continuare?</string>
+  <string name="update_manual_ab">Per continuare, installa la build manualmente utilizzando la recovery TWRP. Questo dispositivo non supporta l\'installazione automatica della build per le partizioni A/B.</string>
   <!-- Changelog -->
   <string name="changelog_title">Novità</string>
 </resources>

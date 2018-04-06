@@ -91,6 +91,7 @@
   <string name="wipe_data">Очистити розділ Data</string>
   <string name="wipe_data_dialog_confirmation_title">Відновлення заводських налаштувань</string>
   <string name="wipe_data_dialog_confirmation_message">Ви обрали \"Очистити розділ Data\", це видалить усі ваші дані на цьому пристрої. Бажаєте продовжити?</string>
+  <string name="update_manual_ab">Щоб продовжити, встановіть білд вручну за допомогою TWRP. Цей пристрій не підтримує авто встановлення через A / B розділи.</string>
   <!-- Changelog -->
   <string name="changelog_title">Список змін</string>
 </resources>

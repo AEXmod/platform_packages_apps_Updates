@@ -44,39 +44,39 @@
   <string name="forum_info_summary">Lihat posting forum</string>
   <string name="addons_title">Tambahan</string>
   <string name="addons_summary">Berkas berguna</string>
-  <string name="addons_error">Gagal memuat daftar tambahan</string>
+  <string name="addons_error">Gagal membuka daftar tambahan</string>
   <!-- MD5 -->
   <string name="checking_md5">Memverifikasi integritas berkas…</string>
   <string name="md5_failed_dialog_title">Integritas berkas</string>
   <string name="md5_failed_dialog_message">Gagal memverifikasi, apakah kamu ingin melanjutkan?</string>
   <!-- Downloads -->
   <string name="confirm_download_cancel_dialog_title">Batalkan unduhan</string>
-  <string name="confirm_download_cancel_dialog_message">Batalkan unduhan sekarang?</string>
+  <string name="confirm_download_cancel_dialog_message">Batalkan unduhan saat ini?</string>
   <string name="download_cancelled">Unduhan dibatalkan</string>
   <string name="download_already_running">Unduhan sedang berjalan</string>
-  <string name="unable_to_stop_download">Tidak bisa menghentikan unduhan</string>
+  <string name="unable_to_stop_download">Tidak dapat menghentikan unduhan</string>
   <string name="unable_to_download_file">Tidak dapat mengunduh berkas pembaruan</string>
   <string name="download_not_found">Unduhan tidak ditemukan</string>
   <string name="notif_download_success_title">Pembaruan berhasil diunduh</string>
   <string name="notif_download_success_summary">Ketuk untuk memasang</string>
   <string name="notif_download_failure_title">Pengunduhan pembaruan gagal</string>
-  <string name="error_download_in_progress">Sedang ada unduhan yang berlangsung</string>
-  <string name="error_file_ready_to_install">Sebuah pembaharuan siap untuk dipasang</string>
-  <string name="storage_permission_error">Silahkan beri izin penyimpanan untuk melanjutkan</string>
+  <string name="error_download_in_progress">Ada unduhan sedang berlangsung</string>
+  <string name="error_file_ready_to_install">Sebuah pembaruan siap dipasang</string>
+  <string name="storage_permission_error">Harap berikan izin penyimpanan untuk melanjutkan</string>
   <!-- Deleting -->
   <string name="confirm_delete_dialog_title">Hapus berkas</string>
-  <string name="confirm_delete_dialog_message">Hapus berkas pembaharuan yang terpilih?</string>
-  <string name="confirm_delete_all_dialog_message">Hapus semua berkas pembaharuan yang sudah diunduh?</string>
-  <string name="delete_update_success_message">Pembaharuan <xliff:g id="filename">%s</xliff:g> dihapus</string>
-  <string name="delete_updates_failure_message">Ada kesalahan pada penghapusan berkas pembaharuan</string>
-  <string name="delete_updates_noFolder_message">Folder pembaharuan tidak ditemukan</string>
-  <string name="delete_updates_success_message">Semua pembaharuan yang diunduh dihapus</string>
+  <string name="confirm_delete_dialog_message">Hapus berkas pembaruan terpilih?</string>
+  <string name="confirm_delete_all_dialog_message">Hapus semua berkas pembaruan terunduh?</string>
+  <string name="delete_update_success_message">Pembaruan <xliff:g id="filename">%s</xliff:g> dihapus</string>
+  <string name="delete_updates_failure_message">Ada kesalahan saat menghapus berkas pembaruan</string>
+  <string name="delete_updates_noFolder_message">Folder pembaruan tidak ditemukan</string>
+  <string name="delete_updates_success_message">Semua pembaruan terunduh telah dihapus</string>
   <!-- Menu and dialog strings -->
   <string name="menu_refresh">Segarkan</string>
   <string name="menu_delete_all">Hapus pembaruan</string>
   <!-- Mobile data warning -->
   <string name="update_on_mobile_data_title">Peringatan</string>
-  <string name="update_on_mobile_data_message">Anda mengunduh paket pembaruan menggunakan data seluler yang kemungkinan akan menyebabkan penggunaan data yang tinggi. Apakah anda ingin melanjutkan?</string>
+  <string name="update_on_mobile_data_message">Anda akan mengunduh paket pembaruan menggunakan data seluler yang mungkin akan menyebabkan penggunaan data yang tinggi. Apakah Anda ingin melanjutkan?</string>
   <string name="checkbox_mobile_data_warning">Jangan tampilkan lagi</string>
   <!-- Install -->
   <string name="reboot_title">Pasang pembaruan</string>
@@ -89,8 +89,8 @@
   <string name="wipe_cache">Hapus Cache</string>
   <string name="wipe_dalvik_cache">Hapus Dalvik/ART cache</string>
   <string name="wipe_data">Hapus Data</string>
-  <string name="wipe_data_dialog_confirmation_title">Resed data pabrik</string>
-  <string name="wipe_data_dialog_confirmation_message">Anda memilih \'hapus data\' pilihan, ini akan mengembalikan perangkat anda ke pengaturan pabrik, apakah anda ingin melanjutkan?</string>
+  <string name="wipe_data_dialog_confirmation_title">Kembali ke pengaturan pabrik</string>
+  <string name="wipe_data_dialog_confirmation_message">Anda memilih opsi \'hapus data\', ini akan mengembalikan pengaturan perangkat anda ke pengaturan pabrik, lanjutkan?</string>
   <!-- Changelog -->
-  <string name="changelog_title">Perubahan</string>
+  <string name="changelog_title">Daftar perubahan</string>
 </resources>

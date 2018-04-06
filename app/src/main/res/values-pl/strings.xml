@@ -91,6 +91,7 @@
   <string name="wipe_data">Wyczyść dane</string>
   <string name="wipe_data_dialog_confirmation_title">Przywracanie ustawień fabrycznych</string>
   <string name="wipe_data_dialog_confirmation_message">Zaznaczyłeś \'usuń dane\', przywróci to ustawienia fabryczne Twojego urządzenia, czy chcesz kontynuować?</string>
+  <string name="update_manual_ab">Aby kontynuować, wgraj system ręcznie używając TWRP. To urządzenie nie wspiera automatycznego wgrywania z powodu partycji A/B.</string>
   <!-- Changelog -->
   <string name="changelog_title">Lista zmian</string>
 </resources>

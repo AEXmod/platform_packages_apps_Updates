@@ -22,7 +22,7 @@
   <string name="changelog_button">Zeige Änderungen</string>
   <!-- Settings section -->
   <string name="settings_category_title">Einstellungen</string>
-  <string name="download_folder_title">Download Ordner</string>
+  <string name="download_folder_title">Download-Ordner</string>
   <string name="update_check_title">Automatisch nach Aktualisierungen suchen</string>
   <string name="check_manual">Deaktiviert</string>
   <string name="check_daily">Täglich</string>
@@ -91,6 +91,7 @@
   <string name="wipe_data">Daten löschen</string>
   <string name="wipe_data_dialog_confirmation_title">Auf Werkseinstellungen zurücksetzen</string>
   <string name="wipe_data_dialog_confirmation_message">Sie haben \'Daten löschen\' ausgewählt. Dies wird Ihr Gerät auf Werkseinstellungen zurücksetzen. Möchten Sie wirklich fortfahren?</string>
+  <string name="update_manual_ab">Um fortzufahren, den Build manuell mit TWRP einspielen. Dieses Gerät unterstützt kein automatisiertes Einspielen auf Grund der A/B Partitionierung.</string>
   <!-- Changelog -->
   <string name="changelog_title">Änderungsprotokoll</string>
 </resources>

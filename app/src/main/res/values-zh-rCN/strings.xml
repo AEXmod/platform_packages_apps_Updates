@@ -43,7 +43,7 @@
   <string name="forum_info_title">论坛</string>
   <string name="forum_info_summary">查看论坛帖子</string>
   <string name="addons_title">插件</string>
-  <string name="addons_summary">可用文件</string>
+  <string name="addons_summary">一些有用的文件</string>
   <string name="addons_error">加载插件列表失败</string>
   <!-- MD5 -->
   <string name="checking_md5">正在校验文件...</string>
@@ -91,6 +91,7 @@
   <string name="wipe_data">清除数据</string>
   <string name="wipe_data_dialog_confirmation_title">恢复出厂设置</string>
   <string name="wipe_data_dialog_confirmation_message">您选择了 \"清除数据” 选项, 这将让你的设备恢复出厂设置, 您确定继续吗？</string>
+  <string name="update_manual_ab">若要继续，请使用 TWRP 手动刷入此版本。此设备由于 A/B 分区而不支持自动刷入。</string>
   <!-- Changelog -->
   <string name="changelog_title">更新日志</string>
 </resources>
