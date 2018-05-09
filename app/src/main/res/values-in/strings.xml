@@ -91,6 +91,7 @@
   <string name="wipe_data">Hapus Data</string>
   <string name="wipe_data_dialog_confirmation_title">Kembali ke pengaturan pabrik</string>
   <string name="wipe_data_dialog_confirmation_message">Anda memilih opsi \'hapus data\', ini akan mengembalikan pengaturan perangkat anda ke pengaturan pabrik, lanjutkan?</string>
+  <string name="update_manual_ab">Untuk melanjutkan, flash manual build menggunakan TWRP. Perangkat ini tidak mendukung flashing auto build karena partisi A/B.</string>
   <!-- Changelog -->
   <string name="changelog_title">Daftar perubahan</string>
 </resources>

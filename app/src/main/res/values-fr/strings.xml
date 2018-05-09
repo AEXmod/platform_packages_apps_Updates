@@ -91,6 +91,7 @@
   <string name="wipe_data">Effacer données</string>
   <string name="wipe_data_dialog_confirmation_title">Reset en paramètres usine</string>
   <string name="wipe_data_dialog_confirmation_message">Vous avez sélectionné l\'option \"supprimer les données\", cela effectuera une restauration d\'usine sur votre appareil. Souhaitez-vous continuer?</string>
+  <string name="update_manual_ab">Pour continuer, flasher la rom manuellement par TWRP. Cet appareil ne supporte pas l\'auto flash de la rom à cause des partitions A/B.</string>
   <!-- Changelog -->
   <string name="changelog_title">Historique des MAJ</string>
 </resources>

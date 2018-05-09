@@ -4,10 +4,13 @@
   <!-- App name -->
   <string name="app_name">Sistem kemas kini</string>
   <!-- Update checking -->
-  <string name="ota_not_supported">Ini membina tidak menyokong OTA terbaru.</string>
-  <string name="type_downloaded">Diamuat turun</string>
+  <string name="ota_not_supported">Binaan ini tidak menyokong kemaskini OTA.</string>
+  <string name="type_downloaded">Telah dimuat turun</string>
+  <string name="type_downloading">Sedang muat turun…</string>
+  <string name="type_completing">Melengkapkan…</string>
+  <string name="download_button">Muat Turun</string>
   <string name="install_button">Pasang</string>
-  <string name="updates_category_title">Ada maklumat</string>
+  <string name="updates_category_title">Kemaskini</string>
   <string name="checking_for_updates">Memeriksa kemas kini</string>
   <string name="update_found_notification">Kemas kini baru boleh didapati</string>
   <string name="update_found_notification_desc">Ketik untuk memuat turun</string>
@@ -38,15 +41,41 @@
   <string name="news_info_summary">Tetap informasi tentang terbaru dan berita lain</string>
   <string name="forum_info_title">Forum</string>
   <string name="forum_info_summary">Lihat catatan forum</string>
+  <string name="addons_title">Tambahan</string>
   <string name="addons_summary">Fail yang berguna</string>
-  <string name="addons_error">Gagal untuk beban tambah senarai</string>
+  <string name="addons_error">Gagal untuk memuatkan senarai</string>
   <!-- MD5 -->
-  <string name="md5_failed_dialog_message">Pengesahan gagal, kau ingin meneruskan?</string>
+  <string name="checking_md5">Mengesahkan integriti fail…</string>
+  <string name="md5_failed_dialog_title">Integriti fail</string>
+  <string name="md5_failed_dialog_message">Pengesahan gagal, adakah anda ingin meneruskan?</string>
   <!-- Downloads -->
-  <string name="confirm_download_cancel_dialog_title">Membatalkan turun</string>
+  <string name="confirm_download_cancel_dialog_title">Batalkan muat turun</string>
+  <string name="confirm_download_cancel_dialog_message">Batalkan muat turun ini?</string>
+  <string name="download_cancelled">Muat turun telah dibatalkan</string>
+  <string name="unable_to_stop_download">Muat turun tidak dapat dihentikan</string>
+  <string name="unable_to_download_file">Fail kemaskini tidak dapat dimuat turun</string>
+  <string name="download_not_found">Muat turun tidak dijumpai</string>
+  <string name="notif_download_success_title">Kemaskini telah berjaya dimuat turun</string>
+  <string name="notif_download_success_summary">Tekan untuk memasang</string>
+  <string name="notif_download_failure_title">Muat turun kemaskini tidak berjaya</string>
+  <string name="error_file_ready_to_install">Terdapat kemaskini sedia untuk dipasang</string>
   <!-- Deleting -->
+  <string name="confirm_delete_dialog_title">Padam fail</string>
+  <string name="confirm_delete_dialog_message">Padam fail kemaskini yang telah dipilih?</string>
+  <string name="confirm_delete_all_dialog_message">Padam kesemua fail kemaskini yang telah dimuat turun?</string>
+  <string name="delete_update_success_message">Kemaskini <xliff:g id="filename">%s</xliff:g> telah dipadam</string>
+  <string name="delete_updates_noFolder_message">Direktori kemaskini tidak dijumpai</string>
+  <string name="delete_updates_success_message">Kesemua kemaskini yang dimuat turun telah dipadamkan</string>
   <!-- Menu and dialog strings -->
+  <string name="menu_delete_all">Padam kemaskini</string>
   <!-- Mobile data warning -->
+  <string name="update_on_mobile_data_title">Amaran</string>
+  <string name="update_on_mobile_data_message">Anda akan memuat turun sejumlah pakej kemaskini menggunakan data mudah alih, di mana akan mengakibatkan penggunaan data yang tinggi. Ingin teruskan?</string>
+  <string name="checkbox_mobile_data_warning">Jangan tunjukkan lagi</string>
   <!-- Install -->
+  <string name="reboot_title">Pasang Kemas Kini</string>
+  <string name="delete_after_install_title">Hapuskan fail zip setelah dipasang</string>
+  <string name="save_advanced_options">Simpan</string>
   <!-- Changelog -->
+  <string name="changelog_title">Perubahan Log</string>
 </resources>

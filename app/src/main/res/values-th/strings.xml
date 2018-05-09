@@ -20,6 +20,7 @@
   <!-- MD5 -->
   <!-- Downloads -->
   <!-- Deleting -->
+  <string name="confirm_delete_dialog_title">ลบไฟล์</string>
   <string name="delete_updates_noFolder_message">Update folder not found</string>
   <string name="delete_updates_success_message">All downloaded updates deleted</string>
   <!-- Menu and dialog strings -->

@@ -39,6 +39,7 @@
   <string name="website_info_title">ウェブサイト</string>
   <string name="website_info_summary">ウェブサイトを参照</string>
   <string name="news_info_title">ニュース</string>
+  <string name="news_info_summary">更新やその他のニュースを入手する</string>
   <string name="forum_info_title">フォーラム</string>
   <string name="forum_info_summary">フォーラムの記事を表示</string>
   <string name="addons_title">アドオン</string>
@@ -90,6 +91,7 @@
   <string name="wipe_data">データを消去</string>
   <string name="wipe_data_dialog_confirmation_title">出荷時の状態に戻す</string>
   <string name="wipe_data_dialog_confirmation_message">「データを消去」オプションを選択しました。このオプションはあなたのデバイスを初期化します。続行しますか？</string>
+  <string name="update_manual_ab">続けるにはTWRPを使用して手動で更新します。このデバイスはA/Bパーティションを使用した自動更新をサポートしていません</string>
   <!-- Changelog -->
   <string name="changelog_title">更新履歴</string>
 </resources>

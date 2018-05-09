@@ -6,10 +6,10 @@
   <!-- Update checking -->
   <string name="ota_not_supported">Esta compilação não suporta atualizações OTA.</string>
   <string name="last_updated_at">(última atualização em <xliff:g id="time">%s</xliff:g>)</string>
-  <string name="type_downloaded">Baixado</string>
-  <string name="type_downloading">Baixando…</string>
+  <string name="type_downloaded">Download concluído</string>
+  <string name="type_downloading">Fazendo download…</string>
   <string name="type_completing">Completando…</string>
-  <string name="download_button">Baixar</string>
+  <string name="download_button">Fazer download</string>
   <string name="install_button">Instalar</string>
   <string name="updates_category_title">Atualizações disponíveis</string>
   <string name="checking_for_updates">Procurando atualizações</string>
@@ -90,7 +90,8 @@
   <string name="wipe_dalvik_cache">Limpar cache Dalvik/ART</string>
   <string name="wipe_data">Limpar dados</string>
   <string name="wipe_data_dialog_confirmation_title">Redefinição de fábrica</string>
-  <string name="wipe_data_dialog_confirmation_message">Você selecionou a opção \'limpar dados\', isto irá fazer uma redefinição de fábrica no seu dispositivo, você deseja continuar?</string>
+  <string name="wipe_data_dialog_confirmation_message">Você selecionou a opção \'limpar dados\', isto fará a redefinição de fábrica no seu dispositivo, você deseja continuar?</string>
+  <string name="update_manual_ab">Para continuar, faça o flash da compilação manualmente usando TWRP. Esse dispositivo não suporta o flash automático da compilação devido as partições A/B.</string>
   <!-- Changelog -->
   <string name="changelog_title">Lista de mudanças</string>
 </resources>

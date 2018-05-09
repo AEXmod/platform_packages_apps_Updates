@@ -33,7 +33,7 @@
   <!-- Info section -->
   <string name="extras_category_title">Extrák</string>
   <string name="error_open_url">Nem sikerült megnyitni a linket a böngészőben</string>
-  <string name="developer_info_title">Karbantartó</string>
+  <string name="developer_info_title">Felelős</string>
   <string name="donate_info_title">Támogatás</string>
   <string name="donate_info_summary">A fejlesztés támogatása</string>
   <string name="website_info_title">Weboldal</string>
