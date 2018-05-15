@@ -55,9 +55,10 @@ import com.aospextended.ota.misc.State;
 import com.aospextended.ota.misc.UpdateInfo;
 import com.aospextended.ota.preferences.UpdatePreference;
 import com.aospextended.ota.receiver.DownloadReceiver;
-import com.aospextended.ota.service.UpdateCheckService;
 import com.aospextended.ota.utils.MD5;
+import com.aospextended.ota.utils.UpdateChecker;
 import com.aospextended.ota.utils.UpdateFilter;
+import com.aospextended.ota.utils.UpdaterCheckerResult;
 import com.aospextended.ota.utils.Utils;
 
 import java.io.File;
@@ -190,13 +191,13 @@ public class UpdaterActivity extends PreferenceActivity implements
             if (DownloadReceiver.ACTION_DOWNLOAD_STARTED.equals(action)) {
                 mDownloadId = intent.getLongExtra(DownloadManager.EXTRA_DOWNLOAD_ID, -1);
                 mUpdateHandler.post(mUpdateProgress);
-            } else if (UpdateCheckService.ACTION_CHECK_FINISHED.equals(action)) {
+            } else if (UpdateChecker.ACTION_CHECK_FINISHED.equals(action)) {
                 if (mProgressDialog != null) {
                     mProgressDialog.dismiss();
                     mProgressDialog = null;
 
-                    boolean isAvailable = intent.getBooleanExtra(UpdateCheckService.EXTRA_UPDATE_AVAILABLE, false);
-                    int result = intent.getIntExtra(UpdateCheckService.EXTRA_CHECK_RESULT, 0);
+                    boolean isAvailable = intent.getBooleanExtra(UpdateChecker.EXTRA_UPDATE_AVAILABLE, false);
+                    int result = intent.getIntExtra(UpdateChecker.EXTRA_CHECK_RESULT, 0);
                     if (result == 0) {
                         showToast(getString(R.string.update_check_failed), Toast.LENGTH_LONG);
                     } else {
@@ -484,16 +485,12 @@ public class UpdaterActivity extends PreferenceActivity implements
         mProgressDialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
             @Override
             public void onCancel(DialogInterface dialog) {
-                Intent cancelIntent = new Intent(UpdaterActivity.this, UpdateCheckService.class);
-                cancelIntent.setAction(UpdateCheckService.ACTION_CANCEL_CHECK);
-                startService(cancelIntent);
+                UpdateChecker.cancelAllRequests(UpdaterActivity.this);
                 mProgressDialog = null;
             }
         });
 
-        Intent checkIntent = new Intent(this, UpdateCheckService.class);
-        checkIntent.setAction(UpdateCheckService.ACTION_CHECK);
-        startService(checkIntent);
+        new UpdateChecker(this, null).check();
 
         mProgressDialog.show();
     }
@@ -624,7 +621,7 @@ public class UpdaterActivity extends PreferenceActivity implements
 
         updateLayout(forceShowDownloading);
 
-        IntentFilter filter = new IntentFilter(UpdateCheckService.ACTION_CHECK_FINISHED);
+        IntentFilter filter = new IntentFilter(UpdateChecker.ACTION_CHECK_FINISHED);
         filter.addAction(DownloadReceiver.ACTION_DOWNLOAD_STARTED);
         registerReceiver(mReceiver, filter);
 
