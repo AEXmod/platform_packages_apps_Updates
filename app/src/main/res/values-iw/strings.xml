@@ -21,10 +21,6 @@
   <string name="changelog_button">הצג שינויים</string>
   <!-- Settings section -->
   <string name="settings_category_title">הגדרות</string>
-  <string name="update_check_title">בדוק אם קיימים עדכונים מעת לעת</string>
-  <string name="check_manual">כבוי</string>
-  <string name="check_daily">יומי</string>
-  <string name="check_weekly">שבועי</string>
   <string name="unknown">לא ידוע</string>
   <string name="mobile_data_warning_title">אזהרת שימוש בנתונים סלולריים</string>
   <string name="mobile_data_warning_summary">הצג אזהרה כאשר המשתמש מנסה להוריד עדכון באמצעות הרשת הסלולרית</string>

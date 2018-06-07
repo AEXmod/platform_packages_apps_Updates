@@ -20,7 +20,6 @@
   <string name="update_check_failed">Oppdateringen mislyktes. Vennligst sjekk din internett-tilkoblingen, og prøv igjen senere.</string>
   <string name="data_connection_required">En datatilkobling er nødvendig.</string>
   <!-- Settings section -->
-  <string name="update_check_title">Se etter oppdateringer med jevne mellomrom</string>
   <string name="mobile_data_warning_summary">Vise en advarsel når brukeren prøver å laste ned en oppdatering via mobile data</string>
   <!-- Info section -->
   <string name="error_open_url">Klarte ikke å åpne URL-adresse i nettleseren</string>

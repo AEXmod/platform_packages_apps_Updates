@@ -4,7 +4,7 @@
   <!-- App name -->
   <string name="app_name">Sistem güncellemeleri</string>
   <!-- Update checking -->
-  <string name="ota_not_supported">Bu yapı OTA güncellemelerini desteklemez.</string>
+  <string name="ota_not_supported">Bu yapı otomatik güncellemeleri desteklemiyor.</string>
   <string name="last_updated_at">(son güncelleme <xliff:g id="time">%s</xliff:g>)</string>
   <string name="type_downloaded">İndirildi</string>
   <string name="type_downloading">İndiriliyor…</string>
@@ -23,10 +23,6 @@
   <!-- Settings section -->
   <string name="settings_category_title">Ayarlar</string>
   <string name="download_folder_title">İndirme klasörü</string>
-  <string name="update_check_title">Güncellemeleri düzenli olarak kontrol et</string>
-  <string name="check_manual">Devre dışı</string>
-  <string name="check_daily">Günlük</string>
-  <string name="check_weekly">Haftalık</string>
   <string name="unknown">Bilinmiyor</string>
   <string name="mobile_data_warning_title">Mobil veri uyarısı</string>
   <string name="mobile_data_warning_summary">Kullanıcı mobil veri yoluyla güncelleme indirmeye çalıştığında bir uyarı göster</string>
@@ -41,7 +37,7 @@
   <string name="news_info_title">Haberler</string>
   <string name="news_info_summary">Güncellemeler ve diğer haberler hakkında bilgi sahibi olun</string>
   <string name="forum_info_title">Forum</string>
-  <string name="forum_info_summary">Forum mesajlarını görüntüle</string>
+  <string name="forum_info_summary">Forum gönderilerini görüntüle</string>
   <string name="addons_title">Eklentiler</string>
   <string name="addons_summary">Yararlı dosyalar</string>
   <string name="addons_error">Eklenti listesi yüklenemedi</string>
@@ -67,7 +63,7 @@
   <string name="confirm_delete_dialog_title">Dosyayı sil</string>
   <string name="confirm_delete_dialog_message">Seçilen güncelleme dosyası silinsin mi?</string>
   <string name="confirm_delete_all_dialog_message">İndirilen tüm güncelleme dosyaları silinsin mi?</string>
-  <string name="delete_update_success_message"><xliff:g id="filename">%s</xliff:g> güncellemesi silindi</string>
+  <string name="delete_update_success_message">Güncelleme <xliff:g id="filename">%s</xliff:g> silindi</string>
   <string name="delete_updates_failure_message">Güncelleme dosyaları silinirken hata oluştu</string>
   <string name="delete_updates_noFolder_message">Güncelleme klasörü bulunamadı</string>
   <string name="delete_updates_success_message">İndirilen tüm güncellemeler silindi</string>
@@ -82,7 +78,7 @@
   <string name="reboot_title">Güncellemeyi yükle</string>
   <string name="reboot_message">Güncellemeyi yüklemek için cihazınız kurtarma modunda yeniden başlatılacaktır.\n\nAşağıdaki dosya yüklenecek:\n<xliff:g id="filepath">%s</xliff:g>\n\nDevam etmek ister misiniz?</string>
   <string name="reboot_failed_title">Hata</string>
-  <string name="reboot_failed_message">Yeniden başlatılamadı, lütfen kurtarma modunda başlatın ve aşağıdaki dosyayı yükleyin:\n\n<xliff:g id="filepath">%s</xliff:g></string>
+  <string name="reboot_failed_message">Yeniden başlatılamadı, lütfen manuel olarak kurtarma modunu başlatın ve aşağıdaki dosyayı yükleyin:\n\n<xliff:g id="filepath">%s</xliff:g></string>
   <string name="delete_after_install_title">Yükledikten sonra zip dosyasını sil</string>
   <string name="advanced_options">Gelişmiş</string>
   <string name="save_advanced_options">Kaydet</string>

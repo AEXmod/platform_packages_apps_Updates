@@ -5,7 +5,7 @@
   <string name="app_name">システムアップデート</string>
   <!-- Update checking -->
   <string name="ota_not_supported">このビルドではOTAアップデートはサポートされていません</string>
-  <string name="last_updated_at">(<xliff:g id="time">%s</xliff:g>に最新の更新)</string>
+  <string name="last_updated_at">（<xliff:g id="time">%s</xliff:g>に最新の更新）</string>
   <string name="type_downloaded">ダウンロード済</string>
   <string name="type_downloading">ダウンロード中…</string>
   <string name="type_completing">完了中…</string>
@@ -23,10 +23,6 @@
   <!-- Settings section -->
   <string name="settings_category_title">設定</string>
   <string name="download_folder_title">ダウンロードフォルダ</string>
-  <string name="update_check_title">アップデートを自動的に確認</string>
-  <string name="check_manual">無効</string>
-  <string name="check_daily">毎日</string>
-  <string name="check_weekly">毎週</string>
   <string name="unknown">不明</string>
   <string name="mobile_data_warning_title">モバイルデータ回線の警告</string>
   <string name="mobile_data_warning_summary">モバイルデータ通信でのアップデートのダウンロード時に警告を表示</string>
@@ -48,7 +44,7 @@
   <!-- MD5 -->
   <string name="checking_md5">ファイルの整合性を確認しています.</string>
   <string name="md5_failed_dialog_title">ファイルの整合性</string>
-  <string name="md5_failed_dialog_message">検証に失敗しました、続行しますか?</string>
+  <string name="md5_failed_dialog_message">検証に失敗しました。続行しますか?</string>
   <!-- Downloads -->
   <string name="confirm_download_cancel_dialog_title">ダウンロードをキャンセル</string>
   <string name="confirm_download_cancel_dialog_message">現在のダウンロードをキャンセルしますか？</string>
@@ -80,7 +76,7 @@
   <string name="checkbox_mobile_data_warning">今後は表示しない</string>
   <!-- Install -->
   <string name="reboot_title">アップデートをインストール</string>
-  <string name="reboot_message">お使いのデバイスはアップデートをインストールするためにリカバリーモードで再起動します。\n\n次のファイルがインストールされます:\n<xliff:g id="filepath">%s</xliff:g>\n\n続行しますか?</string>
+  <string name="reboot_message">お使いのデバイスはアップデートをインストールするためにリカバリーモードで再起動します。\n\n次のファイルがインストールされます:\n<xliff:g id="filepath">%s</xliff:g>\n\n続行しますか？</string>
   <string name="reboot_failed_title">エラー</string>
   <string name="reboot_failed_message">再起動に失敗しました。手動でリカバリーモードで再起動して次のファイルをインストールしてください。:\n\n<xliff:g id="filepath">%s</xliff:g></string>
   <string name="delete_after_install_title">インストール後にZIPファイルを削除する</string>
@@ -91,7 +87,7 @@
   <string name="wipe_data">データを消去</string>
   <string name="wipe_data_dialog_confirmation_title">出荷時の状態に戻す</string>
   <string name="wipe_data_dialog_confirmation_message">「データを消去」オプションを選択しました。このオプションはあなたのデバイスを初期化します。続行しますか？</string>
-  <string name="update_manual_ab">続けるにはTWRPを使用して手動で更新します。このデバイスはA/Bパーティションを使用した自動更新をサポートしていません</string>
+  <string name="update_manual_ab">続けるにはTWRPを使用して手動で更新します。このデバイスはA/Bパーティションを使用した自動更新をサポートしていません。</string>
   <!-- Changelog -->
   <string name="changelog_title">更新履歴</string>
 </resources>
